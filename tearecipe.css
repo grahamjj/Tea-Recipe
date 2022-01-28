@@ -1,0 +1,30 @@
+h1 {
+    font-size:300%;
+}
+h1,h2 {
+    color:orange ;
+    text-transform:uppercase;
+    font-weight: 300;
+} 
+body {
+    font-family:sans-serif;
+    text-align: center;
+    color:slategray;
+}
+body p, ol, ul {
+    font-weight: 100;
+}
+img {
+    width:100%;
+}
+footer {
+    margin-top:50px;
+    color:slategray;
+    background-color: orange;
+}
+footer p {
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Tea Recipe</title>
+    <link href="tearecipe.css" type="text/css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+	<body>
+		
+		<div id="container">
+		<header>
+			<h1>How to make Tea</h1>
+			
+			<img src="https://codeinstitute.s3-eu-west-1.amazonaws.com/5DCC/images/Content/oSVKMED.jpg" alt="A person joyfully holding their cup of tea">
+
+			<p>Tea, the beginning of every moment calling to a friend or family member in Ireland. <em>"Will ya have a cup of tea while you're here?"</em> In just a few simple steps I'm going to show you how to make a loving 'cuppa' for whomever may appraoch your hearth.
+			</p>
+
+		</header>
+		
+		<section onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+			<h2>Ingredients <i id="ingredients"
+		class="fa fa-coffee" aria-hidden="true"></i>
+</h2>
+			<ul>
+			    <li>1 Tea bag (Brand Optional, Barry's Preferred)</li>
+			    <li>Water</li>
+			    <li>Milk (Dairy or Dairy Free)</li>
+                <li>Your <em>Second</em> Favourite Mug (it <em>is</em> for a guest)</li>
+			    <li>Sugar (Optional)</li>
+			</ul>
+		</section>
+		
+		<section onmouseover="preparationHover()" onmouseout="preparationNormal()">
+			<!-- Add your <h2>  here -->
+			<h2>Preparation <i id="preparation" class="fa fa-check" aria-hidden="true"></i>
+</h2>
+			
+			<ol>
+			    <li>The first step is to get the water you have to the boil, you can do this rather easliy if you have an electronic kettle. If not, you can always place a pot on the stove.</li>
+			    <li>While your water is coming to the boil, take your <em>second</em> most favourite mug, and place the tea bag inside. Fill any extra time you have waiting for the water to boil with some light hearted chit-chat.</li>
+			    <li>Now that our water as reached the precipice of it's transformation to gas, it is time to fill our mug. Gently pour the water into the mug until it is about 1cm from the rim of the mug.</li>
+			    <li>A very important step in the making of a <strong>great</strong> cup of tea is to let it <em>steep</em>. Far too many people have a tendency to squeeze the tea bag, and that can force out tanins and add sharpness.</li>
+			    <li>Once the tea has achieved a gloriously dark but shiny brown in the mug, you can remove the bag with a teaspoon.</li>
+			    <li>It is time to add our milk, or milk substitute. Again, gently add the milk until the liquid approaches 3-4mm from the rim.</li>
+			    <li>If your guest requires some sugar, now is the time to add it. Gently stir the combination of ingredients until it mixes into an immaculate and warming shade of dark beige.</li>
+			    <li>Bring the cuppa to your guest and watch them <em>enjoy!</em></li>
+			</ol>
+		</section>
+		
+		<footer>
+			<!-- Add your <p>  here -->
+			<p>
+			    Copyright Me 2020
+			</p>
+		</footer>
+		</div>
+
+		<script>
+		function ingredientsHover() {
+		    document.getElementById("ingredients").style.fontSize = "300%";
+		}
+		function ingredientsNormal() {
+		    document.getElementById("ingredients").style.fontSize = "100%";
+		}
+		function preparationHover() {
+		    document.getElementById("preparation").style.fontSize = "300%";
+		}
+		function preparationNormal() {
+		    document.getElementById("preparation").style.fontSize = "100%";
+		}
+		</script>
+	</body>
+</html>
